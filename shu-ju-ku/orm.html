@@ -1,0 +1,1109 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>ORM · GitBook</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        
+        
+        
+    
+    <link rel="stylesheet" href="../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-toggle-chapters/toggle.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="flask-sqlalchemyan-zhuang-ji-she-zhi.html" />
+    
+    
+    <link rel="prev" href="shu-ju-ku.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    Flask框架
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="../shi-tu-ji-lu-you/shi-tu-ji-lu-you.html">
+            
+                <a href="../shi-tu-ji-lu-you/shi-tu-ji-lu-you.html">
+            
+                    
+                    视图及路由
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.1" data-path="../shi-tu-ji-lu-you/flaskjian-jie.html">
+            
+                <a href="../shi-tu-ji-lu-you/flaskjian-jie.html">
+            
+                    
+                    Flask简介
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.2" data-path="../shi-tu-ji-lu-you/flaskhuan-jing-an-zhuang.html">
+            
+                <a href="../shi-tu-ji-lu-you/flaskhuan-jing-an-zhuang.html">
+            
+                    
+                    虚拟环境
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.3" data-path="../shi-tu-ji-lu-you/helloworld.html">
+            
+                <a href="../shi-tu-ji-lu-you/helloworld.html">
+            
+                    
+                    HelloWorld
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.4" data-path="../shi-tu-ji-lu-you/xiang-guan-pei-zhi-can-shu.html">
+            
+                <a href="../shi-tu-ji-lu-you/xiang-guan-pei-zhi-can-shu.html">
+            
+                    
+                    相关配置参数
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.5" data-path="../shi-tu-ji-lu-you/shi-tu-chang-yong-luo-ji.html">
+            
+                <a href="../shi-tu-ji-lu-you/shi-tu-chang-yong-luo-ji.html">
+            
+                    
+                    视图常用逻辑
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.6" data-path="../shi-tu-ji-lu-you/yi-chang-bu-huo.html">
+            
+                <a href="../shi-tu-ji-lu-you/yi-chang-bu-huo.html">
+            
+                    
+                    异常捕获
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.7" data-path="../shi-tu-ji-lu-you/qing-qiu-gou-zi.html">
+            
+                <a href="../shi-tu-ji-lu-you/qing-qiu-gou-zi.html">
+            
+                    
+                    请求勾子
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.8" data-path="../shi-tu-ji-lu-you/lu-you-de-ge-zhong-ding-yi.html">
+            
+                <a href="../shi-tu-ji-lu-you/lu-you-de-ge-zhong-ding-yi.html">
+            
+                    
+                    路由基本定义
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.9" data-path="../shi-tu-ji-lu-you/flaskzhuang-shi-qi-lu-you-ju-ti-shi-xian.html">
+            
+                <a href="../shi-tu-ji-lu-you/flaskzhuang-shi-qi-lu-you-ju-ti-shi-xian.html">
+            
+                    
+                    装饰器路由具体实现
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.10" data-path="../shi-tu-ji-lu-you/shang-xia-wen.html">
+            
+                <a href="../shi-tu-ji-lu-you/shang-xia-wen.html">
+            
+                    
+                    上下文
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.11" data-path="../shi-tu-ji-lu-you/huo-qu-qing-qiu-can-shu.html">
+            
+                <a href="../shi-tu-ji-lu-you/huo-qu-qing-qiu-can-shu.html">
+            
+                    
+                    获取请求参数
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.12" data-path="../shi-tu-ji-lu-you/zhuang-tai-bao-chi.html">
+            
+                <a href="../shi-tu-ji-lu-you/zhuang-tai-bao-chi.html">
+            
+                    
+                    状态保持
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.12.1" data-path="../shi-tu-ji-lu-you/zhuang-tai-bao-chi/cookie.html">
+            
+                <a href="../shi-tu-ji-lu-you/zhuang-tai-bao-chi/cookie.html">
+            
+                    
+                    Cookie
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.12.2" data-path="../shi-tu-ji-lu-you/zhuang-tai-bao-chi/session.html">
+            
+                <a href="../shi-tu-ji-lu-you/zhuang-tai-bao-chi/session.html">
+            
+                    
+                    Session
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.13" data-path="../shi-tu-ji-lu-you/flask-script.html">
+            
+                <a href="../shi-tu-ji-lu-you/flask-script.html">
+            
+                    
+                    Flask-Script
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.14" data-path="../shi-tu-ji-lu-you/lan-tu.html">
+            
+                <a href="../shi-tu-ji-lu-you/lan-tu.html">
+            
+                    
+                    蓝图
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="../mo-ban/mo-ban.html">
+            
+                <a href="../mo-ban/mo-ban.html">
+            
+                    
+                    模板
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.1" data-path="../mo-ban/jinja2mo-ban-yin-qing.html">
+            
+                <a href="../mo-ban/jinja2mo-ban-yin-qing.html">
+            
+                    
+                    Jinja2简介
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.2" data-path="../mo-ban/jinja2mo-ban-yin-qing-shi-yong.html">
+            
+                <a href="../mo-ban/jinja2mo-ban-yin-qing-shi-yong.html">
+            
+                    
+                    模板的使用
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.3" data-path="../mo-ban/guo-lv-qi.html">
+            
+                <a href="../mo-ban/guo-lv-qi.html">
+            
+                    
+                    过滤器
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.4" data-path="../mo-ban/zi-ding-yi-guo-lv-qi.html">
+            
+                <a href="../mo-ban/zi-ding-yi-guo-lv-qi.html">
+            
+                    
+                    自定义过滤器
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.5" data-path="../mo-ban/kong-zhi-dai-ma-kuai.html">
+            
+                <a href="../mo-ban/kong-zhi-dai-ma-kuai.html">
+            
+                    
+                    控制代码块
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.6" data-path="../mo-ban/mo-ban-dai-ma-fu-yong.html">
+            
+                <a href="../mo-ban/mo-ban-dai-ma-fu-yong.html">
+            
+                    
+                    模板代码复用
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.6.1" data-path="../mo-ban/mo-ban-dai-ma-fu-yong/hong.html">
+            
+                <a href="../mo-ban/mo-ban-dai-ma-fu-yong/hong.html">
+            
+                    
+                    宏
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.6.2" data-path="../mo-ban/mo-ban-dai-ma-fu-yong/ji-cheng.html">
+            
+                <a href="../mo-ban/mo-ban-dai-ma-fu-yong/ji-cheng.html">
+            
+                    
+                    继承
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.6.3" data-path="../mo-ban/mo-ban-dai-ma-fu-yong/bao-han.html">
+            
+                <a href="../mo-ban/mo-ban-dai-ma-fu-yong/bao-han.html">
+            
+                    
+                    包含
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.7" data-path="../mo-ban/te-you-bian-liang-he-han-shu.html">
+            
+                <a href="../mo-ban/te-you-bian-liang-he-han-shu.html">
+            
+                    
+                    特有变量和函数
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.8" data-path="../mo-ban/csrf.html">
+            
+                <a href="../mo-ban/csrf.html">
+            
+                    
+                    CSRF
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" data-path="shu-ju-ku.html">
+            
+                <a href="shu-ju-ku.html">
+            
+                    
+                    数据库
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter active" data-level="1.4.1" data-path="orm.html">
+            
+                <a href="orm.html">
+            
+                    
+                    ORM
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.2" data-path="flask-sqlalchemyan-zhuang-ji-she-zhi.html">
+            
+                <a href="flask-sqlalchemyan-zhuang-ji-she-zhi.html">
+            
+                    
+                    配置
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.3" data-path="zi-duan-lei-xing.html">
+            
+                <a href="zi-duan-lei-xing.html">
+            
+                    
+                    字段类型与选项
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.4" data-path="zong-he-an.html">
+            
+                <a href="zong-he-an.html">
+            
+                    
+                    示例-图书管理
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.4.1" data-path="zong-he-an-4f8b-tu-shu-guan-li/ding-yi-mo-xing.html">
+            
+                <a href="zong-he-an-4f8b-tu-shu-guan-li/ding-yi-mo-xing.html">
+            
+                    
+                    定义模型
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.4.2" data-path="zong-he-an-4f8b-tu-shu-guan-li/shu-ju-ku-biao-chuang.html">
+            
+                <a href="zong-he-an-4f8b-tu-shu-guan-li/shu-ju-ku-biao-chuang.html">
+            
+                    
+                    数据库表创建
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.4.3" data-path="zong-he-an-4f8b-tu-shu-guan-li/ce-shi-shu-ju-tian-jia.html">
+            
+                <a href="zong-he-an-4f8b-tu-shu-guan-li/ce-shi-shu-ju-tian-jia.html">
+            
+                    
+                    测试数据添加
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.4.4" data-path="zong-he-an-4f8b-tu-shu-guan-li/shu-ju-xian.html">
+            
+                <a href="zong-he-an-4f8b-tu-shu-guan-li/shu-ju-xian.html">
+            
+                    
+                    数据显示
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.4.5" data-path="zong-he-an-4f8b-tu-shu-guan-li/biao-dan-tian-jia.html">
+            
+                <a href="zong-he-an-4f8b-tu-shu-guan-li/biao-dan-tian-jia.html">
+            
+                    
+                    添加
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.4.6" data-path="zong-he-an-4f8b-tu-shu-guan-li/biao-dan-xiu-gai.html">
+            
+                <a href="zong-he-an-4f8b-tu-shu-guan-li/biao-dan-xiu-gai.html">
+            
+                    
+                    修改
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.4.7" data-path="zong-he-an-4f8b-tu-shu-guan-li/shan-chu-shu-ju.html">
+            
+                <a href="zong-he-an-4f8b-tu-shu-guan-li/shan-chu-shu-ju.html">
+            
+                    
+                    删除
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.5" data-path="shu-ju-ku-qian-yi.html">
+            
+                <a href="shu-ju-ku-qian-yi.html">
+            
+                    
+                    数据库迁移
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.6" data-path="shu-ju-ku-de-ji-ben-cao-zuo.html">
+            
+                <a href="shu-ju-ku-de-ji-ben-cao-zuo.html">
+            
+                    
+                    查询
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.7" data-path="yi-dui-duo-yan-lian.html">
+            
+                <a href="yi-dui-duo-yan-lian.html">
+            
+                    
+                    一对多演练
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.8" data-path="duo-dui-duo-yan-lian.html">
+            
+                <a href="duo-dui-duo-yan-lian.html">
+            
+                    
+                    多对多演练
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.9" data-path="chang-jian-guan-xi-mo-ban-dai-ma.html">
+            
+                <a href="chang-jian-guan-xi-mo-ban-dai-ma.html">
+            
+                    
+                    常用关系代码
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" data-path="../part5/">
+            
+                <a href="../part5/">
+            
+                    
+                    常用
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.5.1" data-path="../part5/4.html">
+            
+                <a href="../part5/4.html">
+            
+                    
+                    ajax
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.5.1.1" data-path="../part5/4_1.html">
+            
+                <a href="../part5/4_1.html">
+            
+                    
+                    get
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.1.2" data-path="../part5/4_2.html">
+            
+                <a href="../part5/4_2.html">
+            
+                    
+                    post
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.2" data-path="../part5/1.html">
+            
+                <a href="../part5/1.html">
+            
+                    
+                    日志记录
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.3" data-path="../part5/2.html">
+            
+                <a href="../part5/2.html">
+            
+                    
+                    图片上传
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.5.3.1" data-path="../part5/2_1.html">
+            
+                <a href="../part5/2_1.html">
+            
+                    
+                    七牛云
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.3.2" data-path="../part5/2_2.html">
+            
+                <a href="../part5/2_2.html">
+            
+                    
+                    ajax上传
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.4" data-path="../part5/3.html">
+            
+                <a href="../part5/3.html">
+            
+                    
+                    短信验证码
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.5.4.1" data-path="../part5/3_1.html">
+            
+                <a href="../part5/3_1.html">
+            
+                    
+                    接入流程
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.4.2" data-path="../part5/3_2.html">
+            
+                <a href="../part5/3_2.html">
+            
+                    
+                    代码1:SDK
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.4.3" data-path="../part5/3_3.html">
+            
+                <a href="../part5/3_3.html">
+            
+                    
+                    代码2:界面
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.4.4" data-path="../part5/3_4.html">
+            
+                <a href="../part5/3_4.html">
+            
+                    
+                    代码3:发送
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.4.5" data-path="../part5/3_5.html">
+            
+                <a href="../part5/3_5.html">
+            
+                    
+                    代码4:验证
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href=".." >ORM</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="orm">ORM</h1>
+<ul>
+<li><strong><code>ORM</code></strong> &#x5168;&#x62FC;<code>Object-Relation Mapping</code>.</li>
+<li>&#x4E2D;&#x6587;&#x610F;&#x4E3A; <strong><code>&#x5BF9;&#x8C61;-&#x5173;&#x7CFB;&#x6620;&#x5C04;</code></strong>.</li>
+<li><p>&#x4E3B;&#x8981;&#x5B9E;&#x73B0;&#x6A21;&#x578B;&#x5BF9;&#x8C61;&#x5230;&#x5173;&#x7CFB;&#x6570;&#x636E;&#x5E93;&#x6570;&#x636E;&#x7684;&#x6620;&#x5C04;.</p>
+<ul>
+<li><p>&#x6BD4;&#x5982;&#xFF1A;&#x628A;&#x6570;&#x636E;&#x5E93;&#x8868;&#x4E2D;&#x6BCF;&#x6761;&#x8BB0;&#x5F55;&#x6620;&#x5C04;&#x4E3A;&#x4E00;&#x4E2A;&#x6A21;&#x578B;&#x5BF9;&#x8C61;</p>
+<p><img src="../assets/PeopleInfoTable.png" alt=""></p>
+</li>
+</ul>
+</li>
+</ul>
+<h4 id="orm&#x56FE;&#x89E3;">ORM&#x56FE;&#x89E3;</h4>
+<p><img src="../assets/ORM.png" alt=""></p>
+<h4 id="&#x4F18;&#x70B9;-">&#x4F18;&#x70B9; :</h4>
+<ul>
+<li>&#x53EA;&#x9700;&#x8981;&#x9762;&#x5411;&#x5BF9;&#x8C61;&#x7F16;&#x7A0B;, &#x4E0D;&#x9700;&#x8981;&#x9762;&#x5411;&#x6570;&#x636E;&#x5E93;&#x7F16;&#x5199;&#x4EE3;&#x7801;.<ul>
+<li>&#x5BF9;&#x6570;&#x636E;&#x5E93;&#x7684;&#x64CD;&#x4F5C;&#x90FD;&#x8F6C;&#x5316;&#x6210;&#x5BF9;&#x7C7B;&#x5C5E;&#x6027;&#x548C;&#x65B9;&#x6CD5;&#x7684;&#x64CD;&#x4F5C;.</li>
+<li>&#x4E0D;&#x7528;&#x7F16;&#x5199;&#x5404;&#x79CD;&#x6570;&#x636E;&#x5E93;&#x7684;<code>sql&#x8BED;&#x53E5;</code>.</li>
+</ul>
+</li>
+<li>&#x5B9E;&#x73B0;&#x4E86;&#x6570;&#x636E;&#x6A21;&#x578B;&#x4E0E;&#x6570;&#x636E;&#x5E93;&#x7684;&#x89E3;&#x8026;, &#x5C4F;&#x853D;&#x4E86;&#x4E0D;&#x540C;&#x6570;&#x636E;&#x5E93;&#x64CD;&#x4F5C;&#x4E0A;&#x7684;&#x5DEE;&#x5F02;.<ul>
+<li>&#x4E0D;&#x5728;&#x5173;&#x6CE8;&#x7528;&#x7684;&#x662F;<code>mysql</code>&#x3001;<code>oracle</code>...&#x7B49;.</li>
+<li>&#x901A;&#x8FC7;&#x7B80;&#x5355;&#x7684;&#x914D;&#x7F6E;&#x5C31;&#x53EF;&#x4EE5;&#x8F7B;&#x677E;&#x66F4;&#x6362;&#x6570;&#x636E;&#x5E93;, &#x800C;&#x4E0D;&#x9700;&#x8981;&#x4FEE;&#x6539;&#x4EE3;&#x7801;.</li>
+</ul>
+</li>
+</ul>
+<h4 id="&#x7F3A;&#x70B9;-">&#x7F3A;&#x70B9; :</h4>
+<ul>
+<li>&#x76F8;&#x6BD4;&#x8F83;&#x76F4;&#x63A5;&#x4F7F;&#x7528;SQL&#x8BED;&#x53E5;&#x64CD;&#x4F5C;&#x6570;&#x636E;&#x5E93;,&#x6709;&#x6027;&#x80FD;&#x635F;&#x5931;.</li>
+<li>&#x6839;&#x636E;&#x5BF9;&#x8C61;&#x7684;&#x64CD;&#x4F5C;&#x8F6C;&#x6362;&#x6210;SQL&#x8BED;&#x53E5;,&#x6839;&#x636E;&#x67E5;&#x8BE2;&#x7684;&#x7ED3;&#x679C;&#x8F6C;&#x5316;&#x6210;&#x5BF9;&#x8C61;, &#x5728;&#x6620;&#x5C04;&#x8FC7;&#x7A0B;&#x4E2D;&#x6709;&#x6027;&#x80FD;&#x635F;&#x5931;.</li>
+</ul>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="shu-ju-ku.html" class="navigation navigation-prev " aria-label="Previous page: 数据库">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="flask-sqlalchemyan-zhuang-ji-she-zhi.html" class="navigation navigation-next " aria-label="Next page: 配置">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"ORM","level":"1.4.1","depth":2,"next":{"title":"配置","level":"1.4.2","depth":2,"path":"shu-ju-ku/flask-sqlalchemyan-zhuang-ji-she-zhi.md","ref":"shu-ju-ku/flask-sqlalchemyan-zhuang-ji-she-zhi.md","articles":[]},"previous":{"title":"数据库","level":"1.4","depth":1,"path":"shu-ju-ku/shu-ju-ku.md","ref":"shu-ju-ku/shu-ju-ku.md","articles":[{"title":"ORM","level":"1.4.1","depth":2,"path":"shu-ju-ku/orm.md","ref":"shu-ju-ku/orm.md","articles":[]},{"title":"配置","level":"1.4.2","depth":2,"path":"shu-ju-ku/flask-sqlalchemyan-zhuang-ji-she-zhi.md","ref":"shu-ju-ku/flask-sqlalchemyan-zhuang-ji-she-zhi.md","articles":[]},{"title":"字段类型与选项","level":"1.4.3","depth":2,"path":"shu-ju-ku/zi-duan-lei-xing.md","ref":"shu-ju-ku/zi-duan-lei-xing.md","articles":[]},{"title":"示例-图书管理","level":"1.4.4","depth":2,"path":"shu-ju-ku/zong-he-an.md","ref":"shu-ju-ku/zong-he-an.md","articles":[{"title":"定义模型","level":"1.4.4.1","depth":3,"path":"shu-ju-ku/zong-he-an-4f8b-tu-shu-guan-li/ding-yi-mo-xing.md","ref":"shu-ju-ku/zong-he-an-4f8b-tu-shu-guan-li/ding-yi-mo-xing.md","articles":[]},{"title":"数据库表创建","level":"1.4.4.2","depth":3,"path":"shu-ju-ku/zong-he-an-4f8b-tu-shu-guan-li/shu-ju-ku-biao-chuang.md","ref":"shu-ju-ku/zong-he-an-4f8b-tu-shu-guan-li/shu-ju-ku-biao-chuang.md","articles":[]},{"title":"测试数据添加","level":"1.4.4.3","depth":3,"path":"shu-ju-ku/zong-he-an-4f8b-tu-shu-guan-li/ce-shi-shu-ju-tian-jia.md","ref":"shu-ju-ku/zong-he-an-4f8b-tu-shu-guan-li/ce-shi-shu-ju-tian-jia.md","articles":[]},{"title":"数据显示","level":"1.4.4.4","depth":3,"path":"shu-ju-ku/zong-he-an-4f8b-tu-shu-guan-li/shu-ju-xian.md","ref":"shu-ju-ku/zong-he-an-4f8b-tu-shu-guan-li/shu-ju-xian.md","articles":[]},{"title":"添加","level":"1.4.4.5","depth":3,"path":"shu-ju-ku/zong-he-an-4f8b-tu-shu-guan-li/biao-dan-tian-jia.md","ref":"shu-ju-ku/zong-he-an-4f8b-tu-shu-guan-li/biao-dan-tian-jia.md","articles":[]},{"title":"修改","level":"1.4.4.6","depth":3,"path":"shu-ju-ku/zong-he-an-4f8b-tu-shu-guan-li/biao-dan-xiu-gai.md","ref":"shu-ju-ku/zong-he-an-4f8b-tu-shu-guan-li/biao-dan-xiu-gai.md","articles":[]},{"title":"删除","level":"1.4.4.7","depth":3,"path":"shu-ju-ku/zong-he-an-4f8b-tu-shu-guan-li/shan-chu-shu-ju.md","ref":"shu-ju-ku/zong-he-an-4f8b-tu-shu-guan-li/shan-chu-shu-ju.md","articles":[]}]},{"title":"数据库迁移","level":"1.4.5","depth":2,"path":"shu-ju-ku/shu-ju-ku-qian-yi.md","ref":"shu-ju-ku/shu-ju-ku-qian-yi.md","articles":[]},{"title":"查询","level":"1.4.6","depth":2,"path":"shu-ju-ku/shu-ju-ku-de-ji-ben-cao-zuo.md","ref":"shu-ju-ku/shu-ju-ku-de-ji-ben-cao-zuo.md","articles":[]},{"title":"一对多演练","level":"1.4.7","depth":2,"path":"shu-ju-ku/yi-dui-duo-yan-lian.md","ref":"shu-ju-ku/yi-dui-duo-yan-lian.md","articles":[]},{"title":"多对多演练","level":"1.4.8","depth":2,"path":"shu-ju-ku/duo-dui-duo-yan-lian.md","ref":"shu-ju-ku/duo-dui-duo-yan-lian.md","articles":[]},{"title":"常用关系代码","level":"1.4.9","depth":2,"path":"shu-ju-ku/chang-jian-guan-xi-mo-ban-dai-ma.md","ref":"shu-ju-ku/chang-jian-guan-xi-mo-ban-dai-ma.md","articles":[]}]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["toggle-chapters"],"pluginsConfig":{"toggle-chapters":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"shu-ju-ku/orm.md","mtime":"2018-04-05T17:03:02.000Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2018-07-02T00:15:19.509Z"},"basePath":"..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../gitbook/gitbook.js"></script>
+    <script src="../gitbook/theme.js"></script>
+    
+        
+        <script src="../gitbook/gitbook-plugin-toggle-chapters/toggle.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+
